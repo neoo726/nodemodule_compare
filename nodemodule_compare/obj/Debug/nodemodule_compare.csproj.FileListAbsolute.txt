@@ -1,0 +1,15 @@
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\bin\Debug\nodemodule_compare.exe.config
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\bin\Debug\nodemodule_compare.exe
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\bin\Debug\nodemodule_compare.pdb
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.csproj.AssemblyReference.cache
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\MainWindow.g.cs
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\App.g.cs
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare_MarkupCompile.cache
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare_MarkupCompile.lref
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\MainWindow.baml
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.g.resources
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.Properties.Resources.resources
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.csproj.GenerateResource.cache
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.csproj.CoreCompileInputs.cache
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.exe
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.pdb

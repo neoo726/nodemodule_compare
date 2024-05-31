@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|d:\\02_project\\develop_electron_ota\\nodemodule_compare\\nodemodule_compare\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|solutionrelative:nodemodule_compare\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|d:\\02_project\\develop_electron_ota\\nodemodule_compare\\nodemodule_compare\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|solutionrelative:nodemodule_compare\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "nodemodule_compare\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml.cs",
+              "RelativeToolTip": "nodemodule_compare\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAgwEAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T15:06:19.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "nodemodule_compare\\MainWindow.xaml",
+              "ToolTip": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml",
+              "RelativeToolTip": "nodemodule_compare\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T14:32:57.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
