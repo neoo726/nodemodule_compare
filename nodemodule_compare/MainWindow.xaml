@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:nodemodule_compare"
         mc:Ignorable="d"
-        Title="NodeModule Compare" Height="768" Width="1100">
+        Title="Node_Module Compare ( package-lock.json 对比 ) " Height="828" Width="1100">
     <Grid Margin="10">
         <Grid.RowDefinitions>
-            <RowDefinition  Height="125"/>
-            <RowDefinition Height="9*"/>
+            <RowDefinition  Height="180"/>
+            <RowDefinition Height="7*"/>
             <RowDefinition Height="45"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <StackPanel Orientation="Vertical" >
                 <StackPanel Orientation="Vertical" >
-                    <Label Content="老版本地址"/>
+                    <Label Content="老版本地址" ToolTip="node_modules所在目录"/>
                     <Grid >
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="7*"/>
@@ -26,7 +26,7 @@
                     </Grid>
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
-                    <Label Content="新版本地址"/>
+                    <Label Content="新版本地址" ToolTip="node_modules所在目录"/>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="7*"/>
@@ -34,6 +34,20 @@
                         </Grid.ColumnDefinitions>
                         <TextBox  x:Name="NewPathTxtBox"   VerticalContentAlignment="Center" Grid.Column="0" IsReadOnly="True" Height="30"/>
                         <Button x:Name="SelectNewPathBtn" Click="SelectNewPathBtn_Click" Content="选择目录" Width="100" Height="30" Grid.Column="1" HorizontalAlignment="Left"/>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Label Content="提取到目标地址"  ToolTip="将node_modules中的差异文件按原有目录层级拷贝至目标地址"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="7*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox  x:Name="TargetPathTxtBox"   VerticalContentAlignment="Center" Grid.Column="0" IsReadOnly="True" Height="30"/>
+                        <StackPanel Orientation="Horizontal" Grid.Column="1">
+                            <Button x:Name="SelectTargetPathBtn" Click="SelectTargetPathBtn_Click" Content="选择目录" Width="100" Height="30"  HorizontalAlignment="Left"/>
+                            <CheckBox x:Name="IsCopyDistDirChkBox" Content="复制dist及package-lock.json" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10 0 0 0"/>
+                        </StackPanel>
                     </Grid>
                 </StackPanel>
             </StackPanel>
@@ -46,8 +60,8 @@
             </RichTextBox.Resources>
         </RichTextBox>
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 10 0 5">
-            <Button x:Name="StartCompare" Click="StartCompare_Click" Content="开始对比"  Height="30" Width="100" Margin="5 0 5 0"/>
-            <Button x:Name="ExtractFiles" Click="ExtractFiles_Click" Content="提取文件"  Height="30" Width="100" Margin="5 0 5 0"/>
+            <Button x:Name="StartCompare" IsEnabled="False" Click="StartCompare_Click" Content="开始对比"  Height="30" Width="100" Margin="5 0 5 0"/>
+            <Button x:Name="ExtractFiles" IsEnabled="False" Click="ExtractFiles_Click" Content="提取文件"  Height="30" Width="100" Margin="5 0 5 0"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -13,3 +13,6 @@ D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Deb
 D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.csproj.CoreCompileInputs.cache
 D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.exe
 D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodule_compare.pdb
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\bin\Debug\Newtonsoft.Json.dll
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\bin\Debug\Newtonsoft.Json.xml
+D:\02_project\Develop_Electron_OTA\nodemodule_compare\nodemodule_compare\obj\Debug\nodemodu.B4B2846A.Up2Date

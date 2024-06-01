@@ -3,12 +3,25 @@
   "WorkspaceRootPath": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|solutionrelative:nodemodule_compare\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|d:\\02_project\\develop_electron_ota\\nodemodule_compare\\nodemodule_compare\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|solutionrelative:nodemodule_compare\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|d:\\02_project\\develop_electron_ota\\nodemodule_compare\\nodemodule_compare\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|solutionrelative:nodemodule_compare\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|nodemodule_compare||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\46285ff1ce5760eb357ce7487f15d8eb2b08b99fee663274ce712be770e29cdc\\Src\\Newtonsoft.Json\\Linq\\JToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|d:\\02_project\\develop_electron_ota\\nodemodule_compare\\nodemodule_compare\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|solutionrelative:nodemodule_compare\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04A3501-C96C-46D2-A098-FCF592626EA1}|nodemodule_compare\\nodemodule_compare.csproj|d:\\02_project\\develop_electron_ota\\nodemodule_compare\\nodemodule_compare\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +39,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "JToken.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\46285ff1ce5760eb357ce7487f15d8eb2b08b99fee663274ce712be770e29cdc\\Src\\Newtonsoft.Json\\Linq\\JToken.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\46285ff1ce5760eb357ce7487f15d8eb2b08b99fee663274ce712be770e29cdc\\Src\\Newtonsoft.Json\\Linq\\JToken.cs [\u53EA\u8BFB]",
+              "ViewState": "AQIAAD8BAAAAAAAAAAAAAEcBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T00:30:53.854Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nodemodule_compare",
+              "DocumentMoniker": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\nodemodule_compare.csproj",
+              "RelativeDocumentMoniker": "nodemodule_compare\\nodemodule_compare.csproj",
+              "ToolTip": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\nodemodule_compare.csproj",
+              "RelativeToolTip": "nodemodule_compare\\nodemodule_compare.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-01T00:20:04.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "nodemodule_compare\\MainWindow.xaml.cs",
               "ToolTip": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml.cs",
               "RelativeToolTip": "nodemodule_compare\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAgwEAAAAAwAAAA",
+              "ViewState": "AQIAAEABAAAAAAAAAAAswEoBAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T15:06:19.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\packages.config",
+              "RelativeDocumentMoniker": "nodemodule_compare\\packages.config",
+              "ToolTip": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\packages.config",
+              "RelativeToolTip": "nodemodule_compare\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-31T23:29:56.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\02_project\\Develop_Electron_OTA\\nodemodule_compare\\nodemodule_compare\\MainWindow.xaml",
               "RelativeDocumentMoniker": "nodemodule_compare\\MainWindow.xaml",
