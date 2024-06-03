@@ -248,7 +248,10 @@ namespace nodemodule_compare
                         var jObj = package.Value;
                         string version = jObj["version"]?.ToString();
                         resultDict.Add(package.Name, version);
-
+                        if (package.Name.Contains("typeorm-dm"))
+                        {
+                            Console.WriteLine("!");
+                        }
                         // 假设AppendTextAsync是一个模拟的异步写入方法，需要在您的上下文中实现
                         await Task.Delay(1);
                         await AppendTextAsync($"Name:{package.Name},Version:{version}");
@@ -262,11 +265,11 @@ namespace nodemodule_compare
         {
             var resultDict=new Dictionary<string,string>();
             //交集
-            var inter=newModulesDict.Intersect(oldModuesDict);
+            var inter=newModulesDict.Keys.Intersect(oldModuesDict.Keys).ToList();
             //差集
-            var diff = newModulesDict.Except(newModulesDict);
+            var diff = newModulesDict.Keys.Except(oldModuesDict.Keys).ToList();
             await AppendTextAsync("检查引用库版本是否升级...");
-            foreach (var moduleName in newModulesDict.Keys.Intersect(oldModuesDict.Keys))
+            foreach (var moduleName in inter)
             {
                 if (newModulesDict[moduleName] != oldModuesDict[moduleName])
                 {
@@ -276,7 +279,7 @@ namespace nodemodule_compare
                 }
             }
             await AppendTextAsync("检查引用库是否有新增...");
-            foreach (var moduleName in newModulesDict.Keys.Except(newModulesDict.Keys))
+            foreach (var moduleName in diff)
             {
                 resultDict.Add(moduleName, newModulesDict[moduleName]);
                 await Task.Delay(1);
